@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black ;
+}
+.list{
+    display: flex;
+}
+.list>li{
+    padding: 1rem;
+    margin: 1rem;
+    list-style-type: none;
+    font-size: 30px;
+}
+.logo>img{
+    width: 200px;
+}
+.search-bar{
+        margin: 1rem;
+        padding: 1rem;
+}
+.rescard{
+    height: 250px;
+    width: 179px;
+    
+    background-color: beige;
+margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1px;
+    
+}
+.rescard :hover {
+    cursor: pointer;
+        border: 1px solid black;
+    }
+.rescard>h3{
+    margin-top: 0%;
+    margin-left: 2rem;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+.imagecard>img{
+    
+    width: 179px;
+
+}
+.imagecard{
+    flex: auto;
+    padding: 0%;
+    margin: 0%;
+}
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
